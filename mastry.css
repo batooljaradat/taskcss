@@ -28,6 +28,31 @@ a{
     
      
 }
+
+@media screen and (max-width: 1000px)
+ {
+    
+    .benefits .row1{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+    .cours.row2{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+
+    }
+
+    .testmonial .row:nth-child(2){
+
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        
+    }
+
+
+    .price.row11{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+
+    }
+}
 header{
     padding: 30px 40px 30px 40px;
     position: static;
@@ -402,7 +427,7 @@ background-color: #ffffff;
     
 }
 
-.row2{
+.cours.row2{
     padding: 15px 15px;
     display: grid;
    grid-template-columns: repeat(2,minmax(0,1fr));
